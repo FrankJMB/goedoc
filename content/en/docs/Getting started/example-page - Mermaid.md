@@ -63,6 +63,7 @@ graph TD
   Need -- No --> Off["Set params.mermaid.enable = true"]
   Off --> Author
   Need -- Yes --> Author[Insert mermaid codeblock]
+  Author --> End
 ```
 
 With hugo version 0.93 or higher, support of Mermaid diagrams is automatically enabled as soon as you use a `mermaid` code block on your page.
